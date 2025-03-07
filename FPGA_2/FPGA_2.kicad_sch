@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "78072647-df17-4476-bac1-d4a40469c881")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 99.06)
+		(size 24.13 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c2ba1cd-2014-4970-a92c-3a3d0de5dd01")
+		(property "Sheetname" "FPGA_B"
+			(at 101.6 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_B.kicad_sch"
+			(at 101.6 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_2"
+				(path "/78072647-df17-4476-bac1-d4a40469c881"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 88.9)
+		(size 24.13 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cae4d7f7-b098-430a-8925-43e2083c9878")
+		(property "Sheetname" "FPGA_A"
+			(at 101.6 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_A.kicad_sch"
+			(at 101.6 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_2"
+				(path "/78072647-df17-4476-bac1-d4a40469c881"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 78.74)
+		(size 24.13 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dab800fa-f9c5-4445-8385-f812ba116c6b")
+		(property "Sheetname" "Power"
+			(at 101.6 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 101.6 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA_2"
+				(path "/78072647-df17-4476-bac1-d4a40469c881"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

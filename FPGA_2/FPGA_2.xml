@@ -1,0 +1,3478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/dales/Public/FPGA_2/FPGA_2.kicad_sch</source>
+    <date>Sat 18 Mar 2023 11:50:03 AM MDT</date>
+    <tool>Eeschema 7.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FPGA_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FPGA_A.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FPGA_B.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>d2347683-fff8-4d68-82d2-7604315baf5f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>1ad125eb-c498-47f4-b861-e4bebaec1013</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>5f674816-9109-46cb-ba77-8d8a202f4256</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>54c7a4f2-0d26-42fb-8889-e07eb1b0ef46</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>2396a741-2ae2-4b0b-aa7a-9c51b876295e</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>9187de3c-a40f-4971-b493-648cfcb83f77</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>9fc9e1bb-30ed-4e56-bc8a-ac4416bb500c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>ab7d8e5f-9d94-439a-a3c1-fb31b3091123</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>1deee5bb-1e06-41b4-afc7-0d411632c113</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>a07d9548-8250-420e-b856-b078064e65a0</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>5bff9eba-eae6-4053-b51c-5116c56969a7</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>607c72d6-6191-441f-8260-7f215e14adb1</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>5fac6aa5-98c4-4e25-ab60-98d064167fed</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>0a78e417-546a-46d2-8fa7-03859e8b05e5</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>43e00d40-3089-4fb3-8f3f-946c23499f68</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>7e0ef2f6-9c0b-4b85-9a23-422b1ff98c95</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>e61b34c9-44cc-4999-a3bd-a71faac69f07</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>ffc687f9-0942-44f5-8f23-95b1307fa987</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/A768KS476M1JLAE031</datasheet>
+      <fields>
+        <field name="PN#">399-A768KS476M1JLAE031CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="PN#" value="399-A768KS476M1JLAE031CT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>5bba3bb0-11d4-484d-ac2b-bd10d1310f5a</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/A768KS476M1JLAE031</datasheet>
+      <fields>
+        <field name="PN#">399-A768KS476M1JLAE031CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="PN#" value="399-A768KS476M1JLAE031CT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>4c4bfde7-acb9-4b45-af21-47efc6bf9c9e</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>9d5243dc-dcfd-4bab-bd21-67d2a53473fe</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>6dae17df-061c-44a2-b639-50c999955fc8</tstamps>
+    </comp>
+    <comp ref="C109">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>92b33d73-9006-469f-9877-98e9f0285d03</tstamps>
+    </comp>
+    <comp ref="C111">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>07bfea2f-7ea2-4776-8170-91fc562d1b1a</tstamps>
+    </comp>
+    <comp ref="C115">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>6b4ca8e0-b3a1-4750-8405-9cd3a232f2f4</tstamps>
+    </comp>
+    <comp ref="C116">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>fc749abc-76ef-4dd2-81fe-bbc922746908</tstamps>
+    </comp>
+    <comp ref="C117">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>adb4f5b4-31ed-4527-9eda-32460187ef61</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Harvatek%20PDFs/B1911UYG-20D000114U1930.pdf</datasheet>
+      <fields>
+        <field name="PN#">3147-B1911UYG-20D000114U1930CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PN#" value="3147-B1911UYG-20D000114U1930CT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>d7f40986-c952-4011-98e6-d4639dd60c45</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>B240</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
+      <fields>
+        <field name="PN#">B240Q-13-FDICT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="B240" description="40V 2A Schottky Barrier Rectifier Diode, SMB"/>
+      <property name="PN#" value="B240Q-13-FDICT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="40V 2A Schottky Barrier Rectifier Diode, SMB"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>f349c26c-d472-438d-9a8c-db600e9c4b08</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/pj-102a.pdf</datasheet>
+      <fields>
+        <field name="PN#">CP-102A-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <property name="PN#" value="CP-102A-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>511bfbd0-1f13-446a-b176-89b5a48ef114</tstamps>
+    </comp>
+    <comp ref="L101">
+      <value>4u7</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf</datasheet>
+      <fields>
+        <field name="PN#">587-2407-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="PN#" value="587-2407-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>f057a15b-9b7c-41b9-accf-a1e4a032ebc7</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-AC0402FR-131KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-AC0402FR-131KLCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>e36614a9-cabb-49b7-b13e-2f7c5d2657dc</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="PN#">RMCF0402ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="RMCF0402ZT0R00CT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>807bfda0-58aa-431c-a26a-bbbcafdd3bc6</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="PN#">RMCF0402ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="RMCF0402ZT0R00CT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>6d25e5f5-029f-49d4-b0cc-b9ff0b1ada9b</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>49K9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">311-49.9KLRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="311-49.9KLRCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>48167171-37af-48f4-ae9f-f15a36b95c1a</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>15K8</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG2993CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG2993CT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>eaf87eed-25dc-46c6-a4cd-358f5cf9c60d</tstamps>
+    </comp>
+    <comp ref="R112">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402JR-0750RLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402JR-0750RLCT-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>92b5f252-ce78-4d19-a49e-902dab2fdfce</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLV75525PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
+      <fields>
+        <field name="PN#">296-51795-1-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75512PDBV" description="500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"/>
+      <property name="PN#" value="296-51795-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"/>
+      <property name="ki_keywords" value="LDO Regulator Fixed Positive"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>265f6ae7-9f60-43f9-8396-3e650256e6e6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TLV75512PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
+      <fields>
+        <field name="PN#">296-51795-1-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75512PDBV" description="500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"/>
+      <property name="PN#" value="296-51795-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"/>
+      <property name="ki_keywords" value="LDO Regulator Fixed Positive"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>0236fc5d-5701-43f0-8ced-a3baebd91ce9</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>T20Q144</value>
+      <footprint>Package_QFP:LQFP-144_20x20mm_P0.5mm</footprint>
+      <datasheet>https://www.efinixinc.com/docs/trion20-ds-v4.1.pdf</datasheet>
+      <fields>
+        <field name="PN#">2134-T20Q144C3-ND</field>
+      </fields>
+      <libsource lib="Dales" part="T20Q144" description=""/>
+      <property name="PN#" value="2134-T20Q144C3-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>2c4cc873-767d-44ee-854e-b783b47742a1</tstamps>
+    </comp>
+    <comp ref="U103">
+      <value>AOZ1282CI</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://aosmd.com/res/data_sheets/AOZ1282CI.pdf</datasheet>
+      <fields>
+        <field name="PN#">785-1613-1-ND</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="AOZ1282CI" description="1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz"/>
+      <property name="PN#" value="785-1613-1-ND"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz"/>
+      <property name="ki_keywords" value="switching buck converter"/>
+      <sheetpath names="/Power/" tstamps="/dab800fa-f9c5-4445-8385-f812ba116c6b/"/>
+      <tstamps>99b0ca1b-6303-4f9a-a97b-5daf4f4e89f4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>3d687c3a-65d3-4bfb-b5df-a2493f291d87</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>907547f2-6a3e-43bd-bf3a-f3762023a150</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>75bf058e-4792-429d-b158-9c2fd05138c7</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>63efaadc-753d-4a7d-86b5-0667d3c9a47b</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>dca57f99-9d55-446f-ace5-57d8e80a8166</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>53a279ab-4fbf-4181-b2ae-af8bf41e3f7e</tstamps>
+    </comp>
+    <comp ref="C110">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>9a789076-5828-45b8-8485-cb0b73df86d3</tstamps>
+    </comp>
+    <comp ref="C112">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>30339d26-1405-474b-8038-da9eb3fa2ab6</tstamps>
+    </comp>
+    <comp ref="C113">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>9effb6a4-3e68-47bc-a395-20a90305c14a</tstamps>
+    </comp>
+    <comp ref="C114">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>6d3bb528-2082-44af-a734-ac30c6a2a40e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Harvatek%20PDFs/B1911UYG-20D000114U1930.pdf</datasheet>
+      <fields>
+        <field name="PN#">3147-B1911UYG-20D000114U1930CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PN#" value="3147-B1911UYG-20D000114U1930CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>dfe48378-bb39-4bbf-ade5-5d77abbd0bc3</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Harvatek%20PDFs/B1911UYG-20D000114U1930.pdf</datasheet>
+      <fields>
+        <field name="PN#">3147-B1911UYG-20D000114U1930CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PN#" value="3147-B1911UYG-20D000114U1930CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>9b10a191-d3d2-4be5-9d89-cc90a5f051d3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="PN#">2057-RS1-06-G-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="2057-RS1-06-G-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>88e2eb54-4b5f-40a0-952d-1f9c6fd0c7e2</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>6019238b-53dd-4eeb-924e-d0ef733bbe06</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="PN#">2057-RS1-06-G-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="2057-RS1-06-G-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>e5ef206f-f46e-44b8-856b-89cdeee4e0bc</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf</datasheet>
+      <fields>
+        <field name="PN#">S1012EC-08-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="S1012EC-08-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>b4d0e511-3196-4805-a540-b2972306286c</tstamps>
+    </comp>
+    <comp ref="L11">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>98211d81-91b1-4375-b76b-b1dd666d4ee8</tstamps>
+    </comp>
+    <comp ref="L12">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>a8bc1634-b765-41be-89e3-c1abd893342e</tstamps>
+    </comp>
+    <comp ref="L13">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>cfde3c34-f155-451c-a6f6-748a2ce054c0</tstamps>
+    </comp>
+    <comp ref="L16">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>239e6012-f521-4855-b04f-f48371cc3ecc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402JR-0750RLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402JR-0750RLCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>b2f0744d-2104-4b47-81a9-c92dad3716e6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>47418c43-8061-4174-b1fc-d3ea36b94abe</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402JR-0750RLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402JR-0750RLCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>29610abc-867c-4cf1-8ab8-9999df186f62</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402JR-0750RLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402JR-0750RLCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>80218524-9b6a-44b1-baff-3795bf383491</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>9a948522-ed55-44d5-b38b-9c67b81123e5</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>2e3081a5-284f-4683-af80-6e06ede6f3b5</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402JR-0750RLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402JR-0750RLCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>2c7683f9-9790-4aff-88d6-cbd5ba6dcd55</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402JR-0750RLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402JR-0750RLCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>fe48834e-1189-4524-8a18-eb9cfec75894</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-AC0402FR-131KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-AC0402FR-131KLCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>7e79d02f-c506-4088-aea9-0eab28016705</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>67f3010c-0bfa-4678-b474-1f5d675a82f5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-AC0402FR-131KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-AC0402FR-131KLCT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>20ad1984-2e12-41eb-bc48-27550559d107</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>4bb93768-696c-49bd-8531-ec2a80ce1865</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>076cff84-8cb4-48c9-87cb-61be86a7c999</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>7e01923f-64eb-464d-ad35-5588cc92a418</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>41f0156f-3de7-4872-b831-287cda38091a</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>2f72f670-0972-4060-8a04-3b1794c7d6b7</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>04988d4b-3f0d-4509-aa7b-c0a61d3f86f8</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>1ef7090d-ada2-4927-a466-b39eab2ad704</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>5a4d1b50-42aa-4fe7-beba-049e272d2ae2</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>64cc9eb3-71ed-43ba-a4d7-d22e5c4ae68a</tstamps>
+    </comp>
+    <comp ref="R111">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>d6f83888-9b7c-4285-877b-93c90766cb6b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ASDMB-20MHz</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://abracon.com/Oscillators/ASDMB.pdf</datasheet>
+      <fields>
+        <field name="PN#">535-11185-1-ND</field>
+      </fields>
+      <libsource lib="Oscillator" part="ASDMB-xxxMHz" description="1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon"/>
+      <property name="PN#" value="535-11185-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon"/>
+      <property name="ki_keywords" value="1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>a70ffaa6-7376-4c70-a08f-dac224fdae9a</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ASDMB-33M3Hz</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://abracon.com/Oscillators/ASDMB.pdf</datasheet>
+      <fields>
+        <field name="PN#">535-13157-1-ND</field>
+      </fields>
+      <libsource lib="Oscillator" part="ASDMB-xxxMHz" description="1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon"/>
+      <property name="PN#" value="535-13157-1-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon"/>
+      <property name="ki_keywords" value="1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>ef720cf3-a09d-4f3b-bced-ea3a43c15ce0</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="PN#">W25Q128JVSIQ-ND</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="PN#" value="W25Q128JVSIQ-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="ki_keywords" value="flash memory SPI QPI DTR"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>ce11cf17-792e-4e7d-bb19-9d50c19d5d5c</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>23LC1024-E/SN</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20005142C.pdf</datasheet>
+      <fields>
+        <field name="PN#">23LC1024-E/SN-ND</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="PN#" value="23LC1024-E/SN-ND"/>
+      <property name="Sheetname" value="FPGA_A"/>
+      <property name="Sheetfile" value="FPGA_A.kicad_sch"/>
+      <property name="ki_description" value="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="ki_keywords" value="flash memory SPI QPI DTR"/>
+      <sheetpath names="/FPGA_A/" tstamps="/cae4d7f7-b098-430a-8925-43e2083c9878/"/>
+      <tstamps>5c672e4f-5b6e-4807-aca5-5794fa5b1cfc</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>c9dcbe8f-0065-4871-9048-c4a10571a5db</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>74b1483f-c645-4861-a0bc-72a1ac38e12a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>a515f669-ddfd-42f2-ba1f-a913fce5bd69</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>849bf402-d689-4245-9b05-2455d7aed1f3</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>a5824598-72aa-40b1-aa4f-6de2ad1d4dd8</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="PN#">445-9064-1-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="445-9064-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>5716aa8b-8321-4b40-977b-9b3615ea31e5</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>55c4e3d0-2501-4821-9244-13a6e313fd6a</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>381e8780-48a9-4572-92a5-19d38e6c7da0</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>e4ad89b3-2258-4857-bc16-30cf7d47479f</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>efb014fc-3441-4da4-9750-7d02e008486b</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>d74b3d5f-d7b7-4ec8-bedd-e83c48ce0df6</tstamps>
+    </comp>
+    <comp ref="C108">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf</datasheet>
+      <fields>
+        <field name="PN#">1276-CL05B104KB54PNCCT-ND</field>
+      </fields>
+      <libsource lib="Dales" part="C" description="Unpolarized capacitor"/>
+      <property name="PN#" value="1276-CL05B104KB54PNCCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>8e466f2d-f27b-4ccb-9586-db674988c891</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Harvatek%20PDFs/B1911UYG-20D000114U1930.pdf</datasheet>
+      <fields>
+        <field name="PN#">3147-B1911UYG-20D000114U1930CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PN#" value="3147-B1911UYG-20D000114U1930CT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>9ed00605-16ed-47ea-9431-cf0330c10859</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Harvatek%20PDFs/B1911UYG-20D000114U1930.pdf</datasheet>
+      <fields>
+        <field name="PN#">3147-B1911UYG-20D000114U1930CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PN#" value="3147-B1911UYG-20D000114U1930CT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>e7d928ac-8138-498d-ac4a-f991e9c73f6b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Harvatek%20PDFs/B1911UYG-20D000114U1930.pdf</datasheet>
+      <fields>
+        <field name="PN#">3147-B1911UYG-20D000114U1930CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PN#" value="3147-B1911UYG-20D000114U1930CT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>dedd3fbe-e982-4f3b-abc0-e1990611f816</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="PN#">2057-RS1-06-G-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="2057-RS1-06-G-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>45e8ede0-0918-4c78-8990-32f6ee7455cd</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="PN#">2057-RS1-06-G-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="2057-RS1-06-G-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>f253cc73-17c2-44b4-a3ed-d4ef7b98b58c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>PMOD</value>
+      <footprint>dales:PMOD, Through hole</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="PN#">S7074-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Top_Bottom" description="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="S7074-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>fc0012eb-c006-4d92-bb75-ab672193cb1a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_2x10_P2.00mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/877582816_sd.pdf</datasheet>
+      <fields>
+        <field name="PN#">WM18841-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="WM18841-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>666ae4ed-7d53-4639-bda8-f4d69131c124</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>PMOD</value>
+      <footprint>dales:PMOD, Through hole</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="PN#">S7074-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Top_Bottom" description="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="S7074-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>5c6df7d1-f85c-4740-9b89-f0ee845d6f14</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_2x10_P2.00mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/877582816_sd.pdf</datasheet>
+      <fields>
+        <field name="PN#">WM18841-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="WM18841-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>8bfaa6ed-6371-409f-a552-40acc493587b</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>PMOD</value>
+      <footprint>dales:PMOD, Through hole</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="PN#">S7074-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Top_Bottom" description="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="S7074-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>5881e83b-647d-43ec-8d8c-a3cedef7895c</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="PN#">2057-RS1-06-G-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN#" value="2057-RS1-06-G-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>c5df3611-0948-43c0-af7b-2c99c0290714</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>96371705-6b18-4789-b3ed-aac7a5bbabeb</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>cf6775f1-e8bd-49ed-b9ce-5cabd104927e</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>6fadb5b1-aa7e-44fc-a4b1-ed7c3c36cb65</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>de5f639b-fa87-45ff-8b37-3f978b01766a</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>ecec6297-5960-4fd4-8328-42d7b00ee614</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>42784f9c-33de-43a0-90f0-94ba832b003e</tstamps>
+    </comp>
+    <comp ref="L7">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>63b7ec0f-4e3b-48f8-bae5-adf8575c42b1</tstamps>
+    </comp>
+    <comp ref="L8">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>c19df3a2-f609-4140-97ab-e8d2585e6697</tstamps>
+    </comp>
+    <comp ref="L9">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>bf0178fd-fceb-4633-b386-a08fbb40274a</tstamps>
+    </comp>
+    <comp ref="L10">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>0f6d7049-90ef-4f7e-b11d-bc10659cae92</tstamps>
+    </comp>
+    <comp ref="L14">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>6eb5cd1e-dd23-4eae-b07a-432734b240e2</tstamps>
+    </comp>
+    <comp ref="L15">
+      <value>600</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf</datasheet>
+      <fields>
+        <field name="PN#">240-2380-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="PN#" value="240-2380-1-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>16b9aee8-86b7-41e1-a5f0-326e549152d8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-AC0402FR-131KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-AC0402FR-131KLCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>86f0ca4a-fb8b-427b-b719-cfaae949aeab</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-AC0402FR-131KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-AC0402FR-131KLCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>99eb3ccb-d946-4552-8060-a5b0304c28da</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-AC0402FR-131KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-AC0402FR-131KLCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>c55cbad3-c2bb-49b6-9ea1-1b68d8f6b26e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>6fa1163a-e00a-40e0-b5ba-9d27d14de37c</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="PN#">YAG3436CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="YAG3436CT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>ed587915-85cb-451c-b0f6-e1a72775bc6e</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402JR-0750RLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402JR-0750RLCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>3a43f98f-7caa-4603-a1ba-f15decb1746c</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="PN#">13-RC0402FR-1312KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN#" value="13-RC0402FR-1312KLCT-ND"/>
+      <property name="Sheetname" value="FPGA_B"/>
+      <property name="Sheetfile" value="FPGA_B.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FPGA_B/" tstamps="/6c2ba1cd-2014-4970-a92c-3a3d0de5dd01/"/>
+      <tstamps>9ef46870-3c09-43e7-b5d7-a2e0e4600ebf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Top_Bottom">
+      <description>Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dales" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dales" part="T20Q144">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">T20Q144</field>
+        <field name="Footprint">Package_QFP:LQFP-144_20x20mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCCA_TL" type="power_in"/>
+        <pin num="3" name="GPIOL_53_CDI10" type="bidirectional"/>
+        <pin num="4" name="GPIOL_54_CDI11" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="GPIOL_46" type="bidirectional"/>
+        <pin num="7" name="GPIOL_41_CDI9" type="bidirectional"/>
+        <pin num="8" name="GPIOL_40_CDI8" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIOL_32_CTRL4_CDI7" type="bidirectional"/>
+        <pin num="11" name="GPIOL_31_CLK7_CDI6" type="bidirectional"/>
+        <pin num="12" name="VCCIO1C_1D" type="power_in"/>
+        <pin num="13" name="VCC" type="power_in"/>
+        <pin num="14" name="GPIOL_25_CLK1" type="bidirectional"/>
+        <pin num="15" name="GPIOL_24_CLK0" type="bidirectional"/>
+        <pin num="16" name="GPIOL_22_CTRL2" type="bidirectional"/>
+        <pin num="17" name="GPIOL_21_CTRL1_CDI5" type="bidirectional"/>
+        <pin num="18" name="GPIOL_20_CTRL0_CDI4" type="bidirectional"/>
+        <pin num="19" name="GPIOL_13_CDI3" type="bidirectional"/>
+        <pin num="20" name="GPIOL_12_CDI2" type="input"/>
+        <pin num="21" name="VCCIO1B" type="power_in"/>
+        <pin num="22" name="VCC" type="power_in"/>
+        <pin num="23" name="VCCIO1A" type="power_in"/>
+        <pin num="24" name="TDO" type="output"/>
+        <pin num="25" name="TMS" type="input"/>
+        <pin num="26" name="TCK" type="input"/>
+        <pin num="27" name="TDI" type="input"/>
+        <pin num="28" name="GPIOL_09_CDI1" type="bidirectional"/>
+        <pin num="29" name="GPIOL_08_CDI0" type="bidirectional"/>
+        <pin num="30" name="GPIOL_01_CCK" type="bidirectional"/>
+        <pin num="31" name="GPIOL_00_SS_N" type="bidirectional"/>
+        <pin num="32" name="GPIOL_04_CSI" type="bidirectional"/>
+        <pin num="33" name="GPIOL_05_CSO" type="bidirectional"/>
+        <pin num="34" name="CDONE" type="output"/>
+        <pin num="35" name="CRESET_N" type="bidirectional"/>
+        <pin num="36" name="REF_RES" type="passive"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GPIOB_TXP00" type="bidirectional"/>
+        <pin num="39" name="GPIOB_TXN00" type="bidirectional"/>
+        <pin num="40" name="GPIOB_TXP02" type="bidirectional"/>
+        <pin num="41" name="GPIOB_TXN02" type="bidirectional"/>
+        <pin num="42" name="GPIOB_TXP04" type="bidirectional"/>
+        <pin num="43" name="GPIOB_TXN04" type="bidirectional"/>
+        <pin num="44" name="GND" type="power_in"/>
+        <pin num="45" name="GPIOB_TXP06" type="bidirectional"/>
+        <pin num="46" name="GPIOB_TXN06" type="bidirectional"/>
+        <pin num="47" name="GPIOB_TXP09" type="bidirectional"/>
+        <pin num="48" name="GPIOB_TXN09" type="bidirectional"/>
+        <pin num="49" name="VCC" type="power_in"/>
+        <pin num="50" name="GND" type="power_in"/>
+        <pin num="51" name="VCCIO4B" type="power_in"/>
+        <pin num="52" name="VCCIO4B" type="power_in"/>
+        <pin num="53" name="GPIOB_TXP11" type="bidirectional"/>
+        <pin num="54" name="GPIOB_TXN11" type="bidirectional"/>
+        <pin num="55" name="GPIOB_RXP00" type="bidirectional"/>
+        <pin num="56" name="GPIOB_RXN00" type="bidirectional"/>
+        <pin num="57" name="VCC" type="power_in"/>
+        <pin num="58" name="GPIOB_RXP02" type="bidirectional"/>
+        <pin num="59" name="GPIOB_RXN02" type="bidirectional"/>
+        <pin num="60" name="GPIOB_RXN03" type="bidirectional"/>
+        <pin num="61" name="GPIOB_RXP03" type="bidirectional"/>
+        <pin num="62" name="VCCIO4A" type="power_in"/>
+        <pin num="63" name="VCCIO4A" type="power_in"/>
+        <pin num="64" name="GND" type="power_in"/>
+        <pin num="65" name="GPIOB_RXN07" type="bidirectional"/>
+        <pin num="66" name="GPIOB_RXP07" type="bidirectional"/>
+        <pin num="67" name="GPIOB_RXP10" type="bidirectional"/>
+        <pin num="68" name="GPIOB_RXN10" type="bidirectional"/>
+        <pin num="69" name="GPIOB_RXN12_EXTFB0" type="bidirectional"/>
+        <pin num="70" name="GPIOB_RXP12_EXTFB0" type="bidirectional"/>
+        <pin num="71" name="GPIOB_CLKP0" type="bidirectional"/>
+        <pin num="72" name="GPIOB_CLKN0" type="bidirectional"/>
+        <pin num="73" name="VCCA_BR" type="power_in"/>
+        <pin num="74" name="GPIOR_158_TEST_N" type="bidirectional"/>
+        <pin num="75" name="GPIOR_157_PLLIN" type="bidirectional"/>
+        <pin num="76" name="GPIOR_155" type="bidirectional"/>
+        <pin num="77" name="GPIOR_154" type="bidirectional"/>
+        <pin num="78" name="GPIOR_151_CBUS0" type="bidirectional"/>
+        <pin num="79" name="GPIOR_150_CBUS1" type="bidirectional"/>
+        <pin num="80" name="GPIOR_149_CBUS2" type="bidirectional"/>
+        <pin num="81" name="GPIOR_139" type="bidirectional"/>
+        <pin num="82" name="GPIOR_138" type="bidirectional"/>
+        <pin num="83" name="GPIOR_136_CDI16" type="bidirectional"/>
+        <pin num="84" name="GPIOR_135_CDI17" type="bidirectional"/>
+        <pin num="85" name="VCC" type="power_in"/>
+        <pin num="86" name="GPIOR_133_CDI18" type="bidirectional"/>
+        <pin num="87" name="GPIOR_132_CDI19" type="bidirectional"/>
+        <pin num="88" name="VCCIO3E" type="power_in"/>
+        <pin num="89" name="GPIOR_129_CTRL10" type="bidirectional"/>
+        <pin num="90" name="GPIOR_128_CTRL11" type="bidirectional"/>
+        <pin num="91" name="VCCIO3D" type="power_in"/>
+        <pin num="92" name="GPIOR_125_CLK10" type="bidirectional"/>
+        <pin num="93" name="GPIOR_122_CLK13_CDI21" type="bidirectional"/>
+        <pin num="94" name="GND" type="power_in"/>
+        <pin num="95" name="VCCIO3B_3C" type="power_in"/>
+        <pin num="96" name="VCC" type="power_in"/>
+        <pin num="97" name="GPIOR_117_CTRL14" type="bidirectional"/>
+        <pin num="98" name="GPIOR_116_CTRL15" type="bidirectional"/>
+        <pin num="99" name="GPIOR_113_CDI22" type="bidirectional"/>
+        <pin num="100" name="GPIOR_112_CDI23" type="bidirectional"/>
+        <pin num="101" name="GPIOR_105_CDI24" type="bidirectional"/>
+        <pin num="102" name="GPIOR_104_CDI25" type="bidirectional"/>
+        <pin num="103" name="GPIOR_95_CDI26" type="bidirectional"/>
+        <pin num="104" name="GND" type="power_in"/>
+        <pin num="105" name="GPIOR_94_CDI27" type="bidirectional"/>
+        <pin num="106" name="GPIOR_88_CDI28" type="bidirectional"/>
+        <pin num="107" name="VCCA_TR" type="power_in"/>
+        <pin num="108" name="GND" type="power_in"/>
+        <pin num="109" name="GPIOR_88_CDI28" type="bidirectional"/>
+        <pin num="110" name="GPIOR_87_CDI29" type="bidirectional"/>
+        <pin num="111" name="GPIOR_85" type="bidirectional"/>
+        <pin num="112" name="GPIOR_86" type="bidirectional"/>
+        <pin num="113" name="GPIOR_84" type="bidirectional"/>
+        <pin num="114" name="GPIOR_83" type="bidirectional"/>
+        <pin num="115" name="GPIOR_82" type="bidirectional"/>
+        <pin num="116" name="GPIOR_81_MREFCLK" type="bidirectional"/>
+        <pin num="117" name="GPIOR_80" type="bidirectional"/>
+        <pin num="118" name="GPIOR_79_EXTFB1_CDI30" type="bidirectional"/>
+        <pin num="119" name="GPIOR_78_EXTFB0_CDI31" type="bidirectional"/>
+        <pin num="120" name="GND" type="power_in"/>
+        <pin num="121" name="GND" type="power_in"/>
+        <pin num="122" name="VCCIO3A" type="power_in"/>
+        <pin num="123" name="GPIOR_77_PLLIN1" type="bidirectional"/>
+        <pin num="124" name="GPIOR_76_PLLIN0" type="bidirectional"/>
+        <pin num="125" name="VCC" type="power_in"/>
+        <pin num="126" name="GND" type="power_in"/>
+        <pin num="127" name="GND" type="power_in"/>
+        <pin num="128" name="VCC" type="power_in"/>
+        <pin num="129" name="GND" type="power_in"/>
+        <pin num="130" name="VCC" type="power_in"/>
+        <pin num="131" name="GPIOL_75_PLLIN1" type="bidirectional"/>
+        <pin num="132" name="GPIOL_74_PLLIN0" type="bidirectional"/>
+        <pin num="133" name="GND" type="power_in"/>
+        <pin num="134" name="GPIOL_73_EXTFB1_CDI15" type="bidirectional"/>
+        <pin num="135" name="GPIOL_72_EXTFB0_CDI14" type="bidirectional"/>
+        <pin num="136" name="GPIOL_71_NSTATUS" type="bidirectional"/>
+        <pin num="137" name="GPIOL_70_CBSEL0" type="bidirectional"/>
+        <pin num="138" name="GPIOL_69_CBSEL1" type="bidirectional"/>
+        <pin num="139" name="GPIOL_68" type="bidirectional"/>
+        <pin num="140" name="GPIOL_67_CDI13" type="bidirectional"/>
+        <pin num="141" name="GPIOL_65" type="bidirectional"/>
+        <pin num="142" name="GPIOL_66_CDI12" type="bidirectional"/>
+        <pin num="143" name="VCCIO1E" type="power_in"/>
+        <pin num="144" name="GPIOL_64" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="B240">
+      <description>40V 2A Schottky Barrier Rectifier Diode, SMB</description>
+      <docs>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</docs>
+      <footprints>
+        <fp>D*SMB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B240</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet">http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="ASDMB-xxxMHz">
+      <description>1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon</description>
+      <docs>https://abracon.com/Oscillators/ASDMB.pdf</docs>
+      <footprints>
+        <fp>Oscillator*SMD*Abracon*ASDMB*2.5x2.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ASDMB-xxxMHz</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm</field>
+        <field name="Datasheet">https://abracon.com/Oscillators/ASDMB.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Standby" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Out" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV75512PDBV">
+      <description>500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV75512PDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv755p.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="AOZ1282CI">
+      <description>1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz</description>
+      <docs>http://aosmd.com/res/data_sheets/AOZ1282CI.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AOZ1282CI</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://aosmd.com/res/data_sheets/AOZ1282CI.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="LX" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/app/extensions/Library/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/app/extensions/Library/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/app/extensions/Library/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/app/extensions/Library/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>/app/extensions/Library/symbols//Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>/app/extensions/Library/symbols//Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/app/extensions/Library/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/app/extensions/Library/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V2">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C109" pin="2" pintype="passive"/>
+      <node ref="C111" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="U101" pin="107" pinfunction="VCCA_TR" pintype="power_in"/>
+      <node ref="U101" pin="125" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="128" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="13" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="130" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="2" pinfunction="VCCA_TL" pintype="power_in"/>
+      <node ref="U101" pin="22" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="49" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="57" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="73" pinfunction="VCCA_BR" pintype="power_in"/>
+      <node ref="U101" pin="85" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U101" pin="96" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+2V5">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="L10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C113" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="R111" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U101" pin="23" pinfunction="VCCIO1A" pintype="power_in"/>
+      <node ref="U101" pin="88" pinfunction="VCCIO3E" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="4" name="/FPGA_A/CDONE">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U101" pin="34" pinfunction="CDONE" pintype="output"/>
+    </net>
+    <net code="5" name="/FPGA_A/CSO">
+      <node ref="U101" pin="33" pinfunction="GPIOL_05_CSO" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/FPGA_A/CTS">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="76" pinfunction="GPIOR_155" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/FPGA_A/RAM_DQ0">
+      <node ref="U101" pin="8" pinfunction="GPIOL_40_CDI8" pintype="bidirectional"/>
+      <node ref="U102" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/FPGA_A/RAM_DQ1">
+      <node ref="U101" pin="6" pinfunction="GPIOL_46" pintype="bidirectional"/>
+      <node ref="U102" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/FPGA_A/RAM_DQ2">
+      <node ref="U101" pin="11" pinfunction="GPIOL_31_CLK7_CDI6" pintype="bidirectional"/>
+      <node ref="U102" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/FPGA_A/RAM_DQ3">
+      <node ref="U101" pin="7" pinfunction="GPIOL_41_CDI9" pintype="bidirectional"/>
+      <node ref="U102" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/FPGA_A/RAM_SCLK">
+      <node ref="U101" pin="10" pinfunction="GPIOL_32_CTRL4_CDI7" pintype="bidirectional"/>
+      <node ref="U102" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="12" name="/FPGA_A/RAM_SS">
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="GPIOL_53_CDI10" pintype="bidirectional"/>
+      <node ref="U102" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="13" name="/FPGA_A/RTS">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="79" pinfunction="GPIOR_150_CBUS1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/FPGA_A/RxD">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="78" pinfunction="GPIOR_151_CBUS0" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/FPGA_A/SPI_DQ2">
+      <node ref="R109" pin="2" pintype="passive"/>
+      <node ref="U101" pin="20" pinfunction="GPIOL_12_CDI2" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/FPGA_A/SPI_DQ3">
+      <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="U101" pin="19" pinfunction="GPIOL_13_CDI3" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/FPGA_A/SPI_MISO">
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="U101" pin="28" pinfunction="GPIOL_09_CDI1" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/FPGA_A/SPI_MOSI">
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R111" pin="1" pintype="passive"/>
+      <node ref="U101" pin="29" pinfunction="GPIOL_08_CDI0" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/FPGA_A/SPI_SCLK">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U101" pin="30" pinfunction="GPIOL_01_CCK" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="20" name="/FPGA_A/SPI_SS">
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U101" pin="31" pinfunction="GPIOL_00_SS_N" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="21" name="/FPGA_A/TCK">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U101" pin="26" pinfunction="TCK" pintype="input"/>
+    </net>
+    <net code="22" name="/FPGA_A/TDI">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U101" pin="27" pinfunction="TDI" pintype="input"/>
+    </net>
+    <net code="23" name="/FPGA_A/TDO">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U101" pin="24" pinfunction="TDO" pintype="output"/>
+    </net>
+    <net code="24" name="/FPGA_A/TMS">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U101" pin="25" pinfunction="TMS" pintype="input"/>
+    </net>
+    <net code="25" name="/FPGA_A/TxD">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="77" pinfunction="GPIOR_154" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/FPGA_A/VCCIO1B">
+      <node ref="C112" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="L11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="21" pinfunction="VCCIO1B" pintype="power_in"/>
+    </net>
+    <net code="27" name="/FPGA_A/VCVIO1C">
+      <node ref="C110" pin="1" pintype="passive"/>
+      <node ref="C114" pin="2" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="L13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U101" pin="12" pinfunction="VCCIO1C_1D" pintype="power_in"/>
+      <node ref="U102" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="28" name="/FPGA_A/~{CRESET}">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="U101" pin="35" pinfunction="CRESET_N" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/FPGA_B/CLKN0">
+      <node ref="J5" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U101" pin="72" pinfunction="GPIOB_CLKN0" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/FPGA_B/CLKP0">
+      <node ref="J5" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U101" pin="71" pinfunction="GPIOB_CLKP0" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/FPGA_B/RXN00">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="56" pinfunction="GPIOB_RXN00" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/FPGA_B/RXN02">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U101" pin="59" pinfunction="GPIOB_RXN02" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/FPGA_B/RXN03">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U101" pin="60" pinfunction="GPIOB_RXN03" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/FPGA_B/RXN07">
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U101" pin="65" pinfunction="GPIOB_RXN07" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/FPGA_B/RXN10">
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U101" pin="68" pinfunction="GPIOB_RXN10" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/FPGA_B/RXN12">
+      <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U101" pin="70" pinfunction="GPIOB_RXP12_EXTFB0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/FPGA_B/RXP00">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="55" pinfunction="GPIOB_RXP00" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/FPGA_B/RXP02">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="58" pinfunction="GPIOB_RXP02" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/FPGA_B/RXP03">
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U101" pin="61" pinfunction="GPIOB_RXP03" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/FPGA_B/RXP07">
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U101" pin="66" pinfunction="GPIOB_RXP07" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/FPGA_B/RXP10">
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U101" pin="67" pinfunction="GPIOB_RXP10" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/FPGA_B/RXP12">
+      <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U101" pin="69" pinfunction="GPIOB_RXN12_EXTFB0" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/FPGA_B/TXN00">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U101" pin="39" pinfunction="GPIOB_TXN00" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/FPGA_B/TXN02">
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U101" pin="41" pinfunction="GPIOB_TXN02" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/FPGA_B/TXN04">
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U101" pin="43" pinfunction="GPIOB_TXN04" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/FPGA_B/TXN06">
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U101" pin="46" pinfunction="GPIOB_TXN06" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/FPGA_B/TXN09">
+      <node ref="J8" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U101" pin="48" pinfunction="GPIOB_TXN09" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/FPGA_B/TXN11">
+      <node ref="J8" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U101" pin="54" pinfunction="GPIOB_TXN11" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/FPGA_B/TXP00">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="38" pinfunction="GPIOB_TXP00" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/FPGA_B/TXP02">
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U101" pin="40" pinfunction="GPIOB_TXP02" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/FPGA_B/TXP04">
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U101" pin="42" pinfunction="GPIOB_TXP04" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/FPGA_B/TXP06">
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U101" pin="45" pinfunction="GPIOB_TXP06" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/FPGA_B/TXP09">
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U101" pin="47" pinfunction="GPIOB_TXP09" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/FPGA_B/TXP11">
+      <node ref="J8" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U101" pin="53" pinfunction="GPIOB_TXP11" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/FPGA_B/VCCIO3B">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="95" pinfunction="VCCIO3B_3C" pintype="power_in"/>
+    </net>
+    <net code="56" name="/FPGA_B/VCio1E">
+      <node ref="C108" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="L14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="143" pinfunction="VCCIO1E" pintype="power_in"/>
+    </net>
+    <net code="57" name="/FPGA_B/VCio3A">
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="122" pinfunction="VCCIO3A" pintype="power_in"/>
+    </net>
+    <net code="58" name="/FPGA_B/VCio3D">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U101" pin="91" pinfunction="VCCIO3D" pintype="power_in"/>
+    </net>
+    <net code="59" name="/FPGA_B/VCio4A">
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="62" pinfunction="VCCIO4A" pintype="power_in"/>
+      <node ref="U101" pin="63" pinfunction="VCCIO4A" pintype="power_in"/>
+    </net>
+    <net code="60" name="/FPGA_B/VCio4B">
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J8" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="L10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U101" pin="51" pinfunction="VCCIO4B" pintype="power_in"/>
+      <node ref="U101" pin="52" pinfunction="VCCIO4B" pintype="power_in"/>
+    </net>
+    <net code="61" name="CLK66">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="Out" pintype="output"/>
+    </net>
+    <net code="62" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="C108" pin="2" pintype="passive"/>
+      <node ref="C109" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C110" pin="2" pintype="passive"/>
+      <node ref="C111" pin="1" pintype="passive"/>
+      <node ref="C112" pin="2" pintype="passive"/>
+      <node ref="C113" pin="2" pintype="passive"/>
+      <node ref="C114" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="104" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="108" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="120" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="121" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="126" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="127" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="129" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="133" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="37" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="44" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="50" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="64" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="94" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="63" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U101" pin="105" pinfunction="GPIOR_94_CDI27" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U101" pin="106" pinfunction="GPIOR_88_CDI28" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U101" pin="92" pinfunction="GPIOR_125_CLK10" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U101" pin="4" pinfunction="GPIOL_54_CDI11" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D101-A)">
+      <node ref="C115" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D101-K)">
+      <node ref="C117" pin="1" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U103" pin="6" pinfunction="LX" pintype="power_out"/>
+    </net>
+    <net code="75" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="86" pinfunction="GPIOR_133_CDI18" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="87" pinfunction="GPIOR_132_CDI19" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="Net-(J1-Pin_3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="89" pinfunction="GPIOR_129_CTRL10" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="Net-(J1-Pin_4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="90" pinfunction="GPIOR_128_CTRL11" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Net-(J3-Pin_1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="81" pinfunction="GPIOR_139" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="Net-(J3-Pin_2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="82" pinfunction="GPIOR_138" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="Net-(J3-Pin_3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="83" pinfunction="GPIOR_136_CDI16" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="Net-(J3-Pin_4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="84" pinfunction="GPIOR_135_CDI17" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="Net-(J4-Pin_1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="100" pinfunction="GPIOR_112_CDI23" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="Net-(J4-Pin_2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="101" pinfunction="GPIOR_105_CDI24" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="Net-(J4-Pin_3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="102" pinfunction="GPIOR_104_CDI25" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="Net-(J4-Pin_4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="103" pinfunction="GPIOR_95_CDI26" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="Net-(J4-Pin_7)">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U101" pin="99" pinfunction="GPIOR_113_CDI22" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="Net-(J4-Pin_8)">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U101" pin="98" pinfunction="GPIOR_116_CTRL15" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="Net-(J4-Pin_9)">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U101" pin="97" pinfunction="GPIOR_117_CTRL14" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="Net-(J4-Pin_10)">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U101" pin="93" pinfunction="GPIOR_122_CLK13_CDI21" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="Net-(J7-Pin_1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="116" pinfunction="GPIOR_81_MREFCLK" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="Net-(J7-Pin_2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="117" pinfunction="GPIOR_80" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="Net-(J7-Pin_3)">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="118" pinfunction="GPIOR_79_EXTFB1_CDI30" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="Net-(J7-Pin_4)">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="119" pinfunction="GPIOR_78_EXTFB0_CDI31" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="Net-(J7-Pin_7)">
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U101" pin="115" pinfunction="GPIOR_82" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="Net-(J7-Pin_8)">
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U101" pin="114" pinfunction="GPIOR_83" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="Net-(J7-Pin_9)">
+      <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U101" pin="113" pinfunction="GPIOR_84" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="Net-(J7-Pin_10)">
+      <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U101" pin="112" pinfunction="GPIOR_86" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="Net-(J8-Pin_1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(J8-Pin_2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(J9-Pin_1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="138" pinfunction="GPIOL_69_CBSEL1" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="Net-(J9-Pin_2)">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="139" pinfunction="GPIOL_68" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="Net-(J9-Pin_3)">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="140" pinfunction="GPIOL_67_CDI13" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="Net-(J9-Pin_4)">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="141" pinfunction="GPIOL_65" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="Net-(J9-Pin_7)">
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U101" pin="137" pinfunction="GPIOL_70_CBSEL0" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="Net-(J9-Pin_8)">
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U101" pin="136" pinfunction="GPIOL_71_NSTATUS" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="Net-(J9-Pin_9)">
+      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U101" pin="135" pinfunction="GPIOL_72_EXTFB0_CDI14" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="Net-(J9-Pin_10)">
+      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U101" pin="134" pinfunction="GPIOL_73_EXTFB1_CDI15" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="Net-(J11-Pin_1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="142" pinfunction="GPIOL_66_CDI12" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="Net-(J11-Pin_2)">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="144" pinfunction="GPIOL_64" pintype="power_in"/>
+    </net>
+    <net code="111" name="Net-(J11-Pin_3)">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="109" pinfunction="GPIOR_88_CDI28" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="Net-(J11-Pin_4)">
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="110" pinfunction="GPIOR_87_CDI29" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="Net-(J12-Pin_1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="18" pinfunction="GPIOL_20_CTRL0_CDI4" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="Net-(J12-Pin_2)">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="17" pinfunction="GPIOL_21_CTRL1_CDI5" pintype="bidirectional"/>
+    </net>
+    <net code="115" name="Net-(J12-Pin_3)">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="16" pinfunction="GPIOL_22_CTRL2" pintype="bidirectional"/>
+    </net>
+    <net code="116" name="Net-(J12-Pin_4)">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="80" pinfunction="GPIOR_149_CBUS2" pintype="bidirectional"/>
+    </net>
+    <net code="117" name="Net-(U1-Out)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Out" pintype="output"/>
+    </net>
+    <net code="118" name="Net-(U1-Standby)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Standby" pintype="input"/>
+    </net>
+    <net code="119" name="Net-(U4-Standby)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="Standby" pintype="input"/>
+    </net>
+    <net code="120" name="Net-(U101A-GPIOL_04_CSI)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U101" pin="32" pinfunction="GPIOL_04_CSI" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="Net-(U101B-GPIOL_24_CLK0)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U101" pin="15" pinfunction="GPIOL_24_CLK0" pintype="bidirectional"/>
+    </net>
+    <net code="122" name="Net-(U101B-GPIOL_25_CLK1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="GPIOL_25_CLK1" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="Net-(U101H-GPIOR_157_PLLIN)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U101" pin="75" pinfunction="GPIOR_157_PLLIN" pintype="bidirectional"/>
+    </net>
+    <net code="124" name="Net-(U101H-GPIOR_158_TEST_N)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U101" pin="74" pinfunction="GPIOR_158_TEST_N" pintype="bidirectional"/>
+    </net>
+    <net code="125" name="Net-(U101J-REF_RES)">
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="U101" pin="36" pinfunction="REF_RES" pintype="passive"/>
+    </net>
+    <net code="126" name="Net-(U103-BST)">
+      <node ref="C117" pin="2" pintype="passive"/>
+      <node ref="U103" pin="1" pinfunction="BST" pintype="input"/>
+    </net>
+    <net code="127" name="Net-(U103-EN)">
+      <node ref="R112" pin="1" pintype="passive"/>
+      <node ref="U103" pin="4" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="128" name="Net-(U103-FB)">
+      <node ref="R106" pin="2" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="U103" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="129" name="Net-(U103-GND)">
+      <node ref="C115" pin="2" pintype="passive"/>
+      <node ref="C116" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="J10" pin="2" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U103" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="130" name="Net-(U103-VIN)">
+      <node ref="C116" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pintype="passive"/>
+      <node ref="R112" pin="2" pintype="passive"/>
+      <node ref="U103" pin="5" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="131" name="unconnected-(J6-Pin_7-Pad7)">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(U2-NC-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U3-NC-Pad4)">
+      <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U101D-GPIOL_74_PLLIN0-Pad132)">
+      <node ref="U101" pin="132" pinfunction="GPIOL_74_PLLIN0" pintype="bidirectional"/>
+    </net>
+    <net code="135" name="unconnected-(U101D-GPIOL_75_PLLIN1-Pad131)">
+      <node ref="U101" pin="131" pinfunction="GPIOL_75_PLLIN1" pintype="bidirectional"/>
+    </net>
+    <net code="136" name="unconnected-(U101E-GPIOR_76_PLLIN0-Pad124)">
+      <node ref="U101" pin="124" pinfunction="GPIOR_76_PLLIN0" pintype="bidirectional"/>
+    </net>
+    <net code="137" name="unconnected-(U101E-GPIOR_77_PLLIN1-Pad123)">
+      <node ref="U101" pin="123" pinfunction="GPIOR_77_PLLIN1" pintype="bidirectional"/>
+    </net>
+    <net code="138" name="unconnected-(U101E-GPIOR_85-Pad111)">
+      <node ref="U101" pin="111" pinfunction="GPIOR_85" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
